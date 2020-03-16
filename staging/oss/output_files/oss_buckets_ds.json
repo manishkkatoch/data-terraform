@@ -1,1 +1,54 @@
-null
+[
+	{
+		"acl": "private",
+		"cors_rules": null,
+		"creation_date": "2020-03-10",
+		"extranet_endpoint": "oss-cn-hongkong.aliyuncs.com",
+		"intranet_endpoint": "oss-cn-hongkong-internal.aliyuncs.com",
+		"lifecycle_rule": null,
+		"location": "oss-cn-hongkong",
+		"logging": null,
+		"name": "mk-data-terraform-state-staging",
+		"owner": "5550383154524483",
+		"policy": "",
+		"referer_config": [
+			{
+				"allow_empty": true,
+				"referers": null
+			}
+		],
+		"server_side_encryption_rule": [
+			{
+				"sse_algorithm": "AES256"
+			}
+		],
+		"storage_class": "Standard",
+		"tags": {},
+		"versioning": null,
+		"website": null
+	},
+	{
+		"acl": "private",
+		"cors_rules": null,
+		"creation_date": "2020-03-10",
+		"extranet_endpoint": "oss-cn-hongkong.aliyuncs.com",
+		"intranet_endpoint": "oss-cn-hongkong-internal.aliyuncs.com",
+		"lifecycle_rule": null,
+		"location": "oss-cn-hongkong",
+		"logging": null,
+		"name": "mk-ipp-exams-staging",
+		"owner": "5550383154524483",
+		"policy": "",
+		"referer_config": [
+			{
+				"allow_empty": true,
+				"referers": null
+			}
+		],
+		"server_side_encryption_rule": null,
+		"storage_class": "Standard",
+		"tags": {},
+		"versioning": null,
+		"website": null
+	}
+]
