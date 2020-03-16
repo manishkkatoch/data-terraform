@@ -16,14 +16,6 @@ provider "alicloud" {
   version = "~> 1.60"
 }
 
-resource "alicloud_oss_bucket" "optize_data_terraform_state_staging" {
-  bucket = "mk-data-terraform-state-${var.environment}"
-  acl    = "private"
-  server_side_encryption_rule {
-    sse_algorithm = "AES256"
-  }
-}
-
 resource "alicloud_oss_bucket" "ipp_exams" {
   bucket = "mk-ipp-exams-${var.environment}"
   acl    = "private"
