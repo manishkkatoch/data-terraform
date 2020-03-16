@@ -3,3 +3,4 @@
 staging/oss/terraform.tfvars
 **/.terraform
 !*.gpg
+scripts/env.sh
