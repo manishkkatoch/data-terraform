@@ -20,3 +20,9 @@ resource "alicloud_oss_bucket" "ipp_exams" {
   bucket = "mk-ipp-exams-${var.environment}"
   acl    = "private"
 }
+
+
+resource "alicloud_oss_bucket" "ipp_images" {
+  bucket = "mk-ipp-images-${var.environment}"
+  acl    = "private"
+}
